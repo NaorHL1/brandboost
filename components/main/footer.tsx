@@ -29,8 +29,8 @@ export const Footer = () => {
           ))}
         </div>
 
-        <div className="mb-[20px] text-[15px] text-center">
-          &copy; John Doe {new Date().getFullYear()} Inc. All rights reserved.
+        <div dir="rtl" className="mb-[20px] text-[15px] text-center">
+          &copy; Brand Boost {new Date().getFullYear()} כל הזכויות שמורות.
         </div>
       </div>
     </div>

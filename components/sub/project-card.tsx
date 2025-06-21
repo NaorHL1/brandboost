@@ -24,9 +24,9 @@ export const ProjectCard = ({
       <Image
         src={src}
         alt={title}
-        width={1000}
-        height={1000}
-        className="w-full object-contain"
+        width={1898}
+        height={980}
+        className=" object-contain"
       />
 
       <div className="relative p-4">

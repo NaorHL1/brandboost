@@ -11,50 +11,47 @@ export const Navbar = () => {
   return (
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001427] backdrop-blur-md z-50 px-10">
       {/* Navbar Container */}
-      <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
-        {/* Logo + Name */}
+      <div className="w-full h-full relative flex items-center justify-between md:justify-center px-[10px]">
+        
+        {/* 1. Logo + Name (קוד ראשון) */}
         <Link
+        dir="rtl"
           href="#about-me"
-          className="flex items-center"
+          className="flex items-center md:absolute md:right-10"
         >
           <Image
             src="/logo.png"
             alt="Logo"
-            width={70}
-            height={70}
+            width={150}
+            height={100}
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">John Doe</div>
         </Link>
 
-        {/* Web Navbar */}
-        <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.title}
-                href={link.link}
-                className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
-              >
-                {link.title}
-              </Link>
-            ))}
-
-            {/* Source Code */}
+        {/* 2. Web Navbar (מוקדם, במרכז) */}
+        <div dir="rtl" className="hidden md:flex w-[500px] mx-auto flex-row items-center justify-between border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] px-[20px] py-[10px] rounded-full text-gray-200">
+          {NAV_LINKS.map((link) => (
             <Link
-              href={LINKS.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
+              key={link.title}
+              href={link.link}
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
             >
-              Source Code
+              {link.title}
             </Link>
-          </div>
+          ))}
+          <Link
+            href={LINKS.sourceCode}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
+          >
+            צור קשר
+          </Link>
         </div>
 
-        {/* Social Icons (Web) */}
-        <div className="hidden md:flex flex-row gap-5">
+        {/* 3. Social Icons (שור בטווח השמאלי) */}
+        <div className="hidden md:flex md:absolute md:left-10 flex-row gap-5">
           {SOCIALS.map(({ link, name, icon: Icon }) => (
             <Link
               href={link}
@@ -67,7 +64,7 @@ export const Navbar = () => {
           ))}
         </div>
 
-        {/* Hamburger Menu */}
+        {/* 4. Hamburger Menu (נייד בלבד) */}
         <button
           className="md:hidden text-white focus:outline-none text-4xl"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}

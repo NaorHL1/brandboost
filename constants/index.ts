@@ -13,78 +13,77 @@ export const SKILL_DATA = [
     image: "html.png",
     width: 80,
     height: 80,
+    altphoto: "HTML logo",
   },
   {
     skill_name: "CSS",
     image: "css.png",
     width: 80,
     height: 80,
+    altphoto: "CSS logo",
   },
   {
     skill_name: "JavaScript",
     image: "js.png",
     width: 65,
     height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
+    altphoto: "JavaScript logo",
   },
   {
     skill_name: "React",
     image: "react.png",
     width: 80,
     height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
+    altphoto: "React logo",
   },
   {
     skill_name: "TypeScript",
     image: "ts.png",
     width: 80,
     height: 80,
+    altphoto: "TypeScript logo",
   },
   {
     skill_name: "Next.js 14",
     image: "next.png",
     width: 80,
     height: 80,
+    altphoto: "Next.js 14 logo",
+  },
+  {
+    skill_name: "Tailwind CSS",
+    image: "tailwind.png",
+    width: 80,
+    height: 80,
+    altphoto: "Tailwind CSS logo",
   },
   {
     skill_name: "Framer Motion",
     image: "framer.png",
     width: 80,
     height: 80,
+    altphoto: "Framer Motion logo",
   },
   {
-    skill_name: "Stripe",
-    image: "stripe.png",
+    skill_name: "Redux",
+    image: "redux.png",
     width: 80,
     height: 80,
+    altphoto: "Redux logo",
   },
   {
-    skill_name: "Node.js",
-    image: "node.png",
+    skill_name: "React Query",
+    image: "reactquery.png",
     width: 80,
     height: 80,
+    altphoto: "React Query logo",
   },
   {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
+    skill_name: "Material UI",
+    image: "mui.png",
+    width: 80,
+    height: 80,
+    altphoto: "Material UI logo",
   },
 ] as const;
 
@@ -112,60 +111,77 @@ export const FRONTEND_SKILL = [
     image: "html.png",
     width: 80,
     height: 80,
+    altphoto: "HTML logo",
   },
   {
     skill_name: "CSS",
     image: "css.png",
     width: 80,
     height: 80,
+    altphoto: "CSS logo",
   },
   {
     skill_name: "JavaScript",
     image: "js.png",
     width: 65,
     height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
+    altphoto: "JavaScript logo",
   },
   {
     skill_name: "TypeScript",
     image: "ts.png",
     width: 80,
     height: 80,
+    altphoto: "TypeScript logo",
+  },
+  {
+    skill_name: "React",
+    image: "react.png",
+    width: 80,
+    height: 80,
+    altphoto: "React logo",
   },
   {
     skill_name: "Next.js 14",
     image: "next.png",
     width: 80,
     height: 80,
+    altphoto: "Next.js 14 logo",
+  },
+  {
+    skill_name: "Tailwind CSS",
+    image: "tailwind.png",
+    width: 80,
+    height: 80,
+    altphoto: "Tailwind CSS logo",
+  },
+  {
+    skill_name: "Framer Motion",
+    image: "framer.png",
+    width: 80,
+    height: 80,
+    altphoto: "Framer Motion logo",
+  },
+  {
+    skill_name: "Redux",
+    image: "redux.png",
+    width: 80,
+    height: 80,
+    altphoto: "Redux logo",
+  },
+  {
+    skill_name: "React Query",
+    image: "reactquery.png",
+    width: 80,
+    height: 80,
+    altphoto: "React Query logo",
+  },
+  {
+    skill_name: "Material UI",
+    image: "mui.png",
+    width: 80,
+    height: 80,
+    altphoto: "Material UI logo",
   },
 ] as const;
 
@@ -175,168 +191,182 @@ export const BACKEND_SKILL = [
     image: "node.png",
     width: 80,
     height: 80,
+    altphoto: "Node.js logo",
   },
   {
     skill_name: "Express.js",
     image: "express.png",
     width: 80,
     height: 80,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
+    altphoto: "Express.js logo",
   },
   {
     skill_name: "Firebase",
     image: "firebase.png",
     width: 55,
     height: 55,
+    altphoto: "Firebase logo",
   },
   {
     skill_name: "PostgreSQL",
     image: "postgresql.png",
     width: 70,
     height: 70,
+    altphoto: "PostgreSQL logo",
   },
   {
     skill_name: "MySQL",
     image: "mysql.png",
     width: 70,
     height: 70,
+    altphoto: "MySQL logo",
   },
   {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
+    skill_name: "GraphQL",
     image: "graphql.png",
     width: 80,
     height: 80,
+    altphoto: "GraphQL logo",
   },
-] as const;
-
-export const FULLSTACK_SKILL = [
   {
     skill_name: "React Native",
     image: "reactnative.png",
     width: 70,
     height: 70,
-  },
-  {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
+    altphoto: "React Native logo",
   },
   {
     skill_name: "Docker",
     image: "docker.png",
     width: 70,
     height: 70,
-  },
-
-  {
-    skill_name: "Figma",
-    image: "figma.png",
-    width: 50,
-    height: 50,
+    altphoto: "Docker logo",
   },
 ] as const;
+
+export const FULLSTACK_SKILL = [] as const;
 
 export const OTHER_SKILL = [
   {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
+    skill_name: "WordPress",
+    image: "wordpress.png",
+    width: 70,
+    height: 70,
+    altphoto: "WordPress logo",
+  },
+  {
+    skill_name: "Meta Pixel",
+    image: "metapixel.png",
+    width: 70,
+    height: 70,
+    altphoto: "Meta Pixel logo",
+  },
+  {
+    skill_name: "Hotjar",
+    image: "hotjar.png",
+    width: 70,
+    height: 70,
+    altphoto: "Hotjar logo",
+  },
+  {
+    skill_name: "Photoshop",
+    image: "photoshop.png",
+    width: 70,
+    height: 70,
+    altphoto: "Photoshop logo",
+  },
+  {
+    skill_name: "Google Analytics",
+    image: "analytics.png",
+    width: 70,
+    height: 70,
+    altphoto: "Google Analytics logo",
   },
 ] as const;
 
+
+
+
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "השכרת שירותים ניידים לאירועים",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      "אתר תדמית שנבנה במטרה להמיר גולשים ללקוחות במהירות. עיצוב מודרני, תוכן ממוקד, ואופטימיזציה להנעה לפעולה – האתר מעביר מסר ברור: שירותים יוקרתיים, זמינות מלאה, וללא התפשרות על הניקיון או החוויה. מתאים לקמפיינים ממומנים וללקוחות שמחפשים פתרון מיידי ואיכותי.",
+    image: "/projects/shirutim.png",
+    link: "https://shirutim4u.com",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "חנות אונליין לאוכל וציוד לחיות",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      "חנות וירטואלית מותאמת למובייל עם חוויית משתמש נוחה ופשוטה. כל מוצר מצולם ומוסבר, אפשרות רכישה מהירה, קטגוריות חכמות, ומיקוד ביצירת אמון מיידי מול הלקוח. מושלמת לפרסום בגוגל וברשתות.",
+    image: "/projects/petshop.png",
+    link: "https://pitbull-petshop.com/",
   },
   {
-    title: "Space Themed Website",
+    title: "כרטיס ביקור דיגיטלי לתקליטן ואירועים",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+      "כרטיס ביקור דיגיטלי שנבנה במיוחד כדי להשאיר רושם ראשוני חזק וליצור חיבור מיידי עם לקוחות פוטנציאליים. כולל גלריית תמונות, המלצות, טופס יצירת קשר מהיר וטעימה מהמוזיקה. מותאם לשיתוף בוואטסאפ וברשתות, מושלם למיתוג אישי מקצועי.",
+    image: "/projects/phoenix.png",
+    link: "https://djphoenix.co.il/",
   },
 ] as const;
 
 export const FOOTER_DATA = [
   {
-    title: "Community",
+    title: "מידע נוסף",
     data: [
       {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
+        name: "מדיניות פרטיות",
+        icon: null,
+        link: "https://example.com",
       },
       {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
+        name: "תקנון ותנאי שימוש",
+        icon: null,
+        link: "https://example.com",
       },
       {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
+        name: "הצהרת נגישות",
+        icon: null,
+        link: "https://example.com",
       },
     ],
   },
   {
-    title: "Social Media",
+    title: "רשתות חברתיות",
     data: [
       {
-        name: "Instagram",
+        name: "אינסטגרם",
         icon: RxInstagramLogo,
         link: "https://instagram.com",
       },
       {
-        name: "Twitter",
+        name: "טוויטר",
         icon: RxTwitterLogo,
         link: "https://twitter.com",
       },
       {
-        name: "Linkedin",
+        name: "לינקדאין",
         icon: RxLinkedinLogo,
         link: "https://linkedin.com",
       },
     ],
   },
   {
-    title: "About",
+    title: "עלינו",
     data: [
       {
-        name: "Become Sponsor",
+        name: "אודות",
         icon: null,
         link: "https://youtube.com",
       },
       {
-        name: "Learning about me",
+        name: "בלוג",
         icon: null,
-        link: "https://example.com",
+        link: "mailto:contact@example.com",
       },
       {
-        name: "Contact Me",
+        name: "צור קשר",
         icon: null,
         link: "mailto:contact@example.com",
       },
@@ -346,19 +376,19 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
-    title: "About me",
+    title: "עלינו",
     link: "#about-me",
   },
   {
-    title: "Skills",
-    link: "#skills",
+    title: "שירותים",
+    link: "#services",
   },
   {
-    title: "Projects",
+    title: "פרויקטים",
     link: "#projects",
   },
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "",
 };
